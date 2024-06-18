@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 350;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    line-height: 1.6;
+    font-family: 'josefin sans', sans serif;
+}
+.navbarMenu{
+    min-width: 100%;
+    min-height: 6.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  rgb(2, 7, 5);
+}
+.logo{  display: flex;
+        font-size: 1.2rem;
+        color: rgb(248, 239, 244);
+        letter-spacing: 10px;
+        color: darkorange;
+}
+.logo h2{
+        color: #965000;
+}
+span{
+        color: rgb(30, 100, 83);
+}
+.nav-links{
+        width: 20rem;
+        display: flex;
+        justify-content: space-between;
+}
+.nav-links ul li{
+        list-style: none;
+        font-size: 1.2rem;
+        height: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.nav-links  ul li :hover{
+        color: #965000;
+}
+a{
+        color: rgb(228, 213, 213);
+        text-decoration: none;
+}
+#container{
+    display: inline-block;
+    justify-content: center;
+    background: rgb(19, 19, 1) url(Img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    width: 100%;
+    height: 100vh;
+    padding-top: 5rem;
+}
+#container h2{
+    color: white;
+    text-align: center;
+}
+.form-control{
+    background-color: #010708;
+    color: white;
+    height: auto;
+    width: 380px;
+    cursor: pointer;
+    margin-left: 32rem;
+    transition: .1s;
+    border-radius: 5rem;
+}
+.form-control:hover{
+    background-color: transparent;
+    border: .096rem solid rgb(90, 67, 3);
+}
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+#one input{
+    padding:7px 30px;
+    display: block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    color: white;   
+}
+#two input{
+    padding:7px 30px;
+    display: block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+#message{
+    padding: 20px 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom:2px solid white;
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+#user-name-error,
+#email-error,
+#password-error,
+#confirm-password-error{
+    color: rgb(238, 16, 16);
+}
+#one small{
+    text-align: center;
+}
+#two small{
+    text-align: center;
+}
+.btn{
+    background-color: rgb(2, 30, 49);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: 350;
+    padding: .5rem 6rem;
+    border-radius: 30px;
+    transition: .4s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid rgb(2, 30, 49);
+}
+#form-control{
+    margin-left: 90rem;
+}
+header{
+    padding: 20px 40px;
+}
+.form-control{
+    padding:  30px 40px;
+}
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+input{
+    padding:7px 60px;
+    margin-bottom: 15px;
+    display: block;
+    border: 2px solid black;
+    outline: none;
+}
+input::placeholder{
+    color: rgb(63, 101, 136);
+}
+#user-name-error,
+#email-error,
+#password-error,
+#confirm-password-error{
+    color: red;
+}
+#one small{
+    position: absolute;
+    top: 235px;
+    right: 160px;
+    left: 180px;
+}
+#two small{
+    position: absolute;
+    top: 305px;
+    right: 160px;
+    left: 180px;
+}
+#Three small{
+    position: absolute;
+    top: 385px;
+    right: 160px;
+    left: 180px;
+}
+#four small{
+    position: absolute;
+    top: 465px;
+    right: 160px;
+    left: 180px;
+} 
+.copyright{
+    background-color: black;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.copyright p{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
